@@ -1,15 +1,14 @@
 'use client'
-import { chipImg, frameImg, frameVideo } from '@/utils'
+import { chipImg, frameImg } from '@/utils'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Image from 'next/image'
-import React, { useRef } from 'react'
+import React from 'react'
 
 gsap.registerPlugin(ScrollTrigger);
 
 const HowItWorks = () => {
-    const videoRef = useRef<HTMLVideoElement | null>(null)
     useGSAP(() => {
         gsap.from("#chip", {
             scrollTrigger: {
@@ -67,11 +66,6 @@ const HowItWorks = () => {
                         <div className='overflow-hidden'>
                             <Image id="frame" src={frameImg} alt='frame' className='bg-transparent relative z-10 opacity-0' />
                         </div>
-                        {/* <div className='hiw-video'>
-                            <video className='pointer-events-none' playsInline preload='none' muted autoPlay ref={videoRef}>
-                                <source src={frameVideo} type='video/mp4'></source>
-                            </video>
-                        </div> */}
                     </div>
 
                 </div>

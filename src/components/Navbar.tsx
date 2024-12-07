@@ -1,5 +1,5 @@
 import React from 'react'
-import { appleImg, bagImg, searchImg } from "../utils"
+import { searchImg } from "../utils"
 import Image from 'next/image'
 import { navLists } from '@/constants'
 const Navbar = () => {
@@ -8,7 +8,7 @@ const Navbar = () => {
             <nav className='flex w-full screen-max-width justify-center items-center'>
                 <h2>GymFluencer.</h2>
                 <div className='flex flex-1 justify-center max-sm:hidden'>
-                    {navLists.map((nav, i) => (
+                    {navLists.map((nav) => (
                         <div className='px-5 text-sm cursor-pointer text-gray hover:text-white transition-all' key={nav}>{nav}</div>
                     ))}
                 </div>

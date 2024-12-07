@@ -32,7 +32,7 @@ const Features = () => {
             scrollTrigger: {
                 trigger: "#feature_title",
                 toggleActions: 'restart none',
-                start: 'top 5%'
+                start: 'top 85%'
             }
         })
         gsap.to('.g_grow', {
@@ -56,7 +56,7 @@ const Features = () => {
             scrollTrigger: {
                 trigger: ".g_text",
                 toggleActions: 'restart none',
-                start: "top 35%",
+                start: "top 85%",
             }
         })
     }, [])

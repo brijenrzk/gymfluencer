@@ -40,7 +40,7 @@ const HowItWorks = () => {
             scrollTrigger: {
                 trigger: ".g_fadeIn",
                 toggleActions: 'restart reverse restart reverse',
-                start: "top 95%",
+                start: "top 55%",
                 scrub: 5.5
             },
         })
@@ -87,7 +87,7 @@ const HowItWorks = () => {
                     </div>
 
 
-                    <div className='flex-1 flex justify-center flex-col g_fadeIn mb-20'>
+                    <div className='flex-1 flex justify-center flex-col g_fadeIn mb-10'>
                         <p className='hiw-text'>Download</p>
                         <p className='hiw-bigtext'>GymFluencer</p>
                         <p className='hiw-text'>available in playstore & appstore.</p>

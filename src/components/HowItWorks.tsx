@@ -87,7 +87,7 @@ const HowItWorks = () => {
                     </div>
 
 
-                    <div className='flex-1 flex justify-center flex-col g_fadeIn'>
+                    <div className='flex-1 flex justify-center flex-col g_fadeIn mb-20'>
                         <p className='hiw-text'>Download</p>
                         <p className='hiw-bigtext'>GymFluencer</p>
                         <p className='hiw-text'>available in playstore & appstore.</p>

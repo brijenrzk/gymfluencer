@@ -24,7 +24,7 @@ import frame from "../../public/assets/images/hiwBanner.png";
 
 
 export const heroVideo = "/assets/videos/hero2.mp4";
-export const smallHeroVideo = "/assets/videos/smallHero.mp4";
+export const smallHeroVideo = "/assets/videos/hero2.mp4";
 export const highlightFirstVideo = "/assets/videos/highlight-first1.mp4";
 export const highlightSecondVideo = "/assets/videos/highlight-sec2.mp4";
 export const highlightThirdVideo = "/assets/videos/highlight-third3.mp4";
